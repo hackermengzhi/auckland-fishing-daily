@@ -35,7 +35,7 @@ for a,b in data['blue_windows']:
  ln([p for i,p in enumerate(ps) if a<=i/40<=b],'#32A9FF',6)
  for h in [a,b]:
   x,y=ps[min(960,round(h*40))];mins=round(h*60);label=f'{mins//60:02}:{mins%60:02}'
-  tx(max(92,min(943,x+10 if h==b else x-61)),y-15,label,17,'#2495DF',EN)
+  tx(max(92,min(943,x-25)),y-40 if h==b else y+18,label,17,'#2495DF',EN)
 for j,(h,v) in enumerate(es):
  if not 0<=h<24:continue
  high=v>es[j-1][1];mins=round(h*60);tm=f'{mins//60:02}:{mins%60:02}';x,y=X(h),Y(v)
