@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-25",
+  "tides": [
+    [
+      -22.9,
+      0.6
+    ],
+    [
+      -16.45,
+      3.2
+    ],
+    [
+      -10.466666666666667,
+      0.7
+    ],
+    [
+      -4.166666666666667,
+      3.2
+    ],
+    [
+      1.9666666666666668,
+      0.4
+    ],
+    [
+      8.4,
+      3.3
+    ],
+    [
+      14.383333333333333,
+      0.6
+    ],
+    [
+      20.733333333333334,
+      3.3
+    ],
+    [
+      26.816666666666666,
+      0.3
+    ],
+    [
+      33.25,
+      3.5
+    ],
+    [
+      39.25,
+      0.5
+    ],
+    [
+      45.61666666666667,
+      3.3
+    ]
+  ],
+  "blue_windows": [
+    [
+      0.0,
+      0.4666666666666667
+    ],
+    [
+      3.5833333333333335,
+      6.8
+    ],
+    [
+      9.9,
+      12.9
+    ],
+    [
+      16.1,
+      19.033333333333335
+    ],
+    [
+      22.1,
+      24.0
+    ]
+  ],
+  "ranges": {
+    "sst": [
+      20.446860000000015,
+      20.712820000000022
+    ],
+    "air": [
+      15.386000000000024,
+      21.063000000000045
+    ],
+    "wind": [
+      2.96461479972,
+      8.67724186224
+    ],
+    "wave": [
+      0.31,
+      0.52
+    ]
+  },
+  "sunrise": "05:57",
+  "sunset": "20:18",
+  "moon": "满月",
+  "moonrise": "21:20",
+  "moonset": "05:42",
+  "generated_at": "2026-11-25T00:42:18.726464+13:00",
+  "weather_updates": {
+    "atmos": "2026-11-24T11:23:40",
+    "wave": "2026-11-24T11:34:49",
+    "sst": "2026-11-24T08:56:12",
+    "uv": "2022-06-27T17:44:50"
+  },
+  "blue_method": "reference estimate: |half-cosine interpolated tide height derivative| >= 0.5 m/hour; NOT Global Tide fish activity",
+  "time_assumption": "Solot timezone-naive ftime interpreted as UTC; not yet validated against App",
+  "species_type": "static Auckland species list, not live fish detections",
+  "tide_source": "LINZ Auckland port, chart datum; not screenshot coordinate model"
+}
