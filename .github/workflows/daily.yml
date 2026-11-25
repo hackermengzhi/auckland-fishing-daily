@@ -33,4 +33,9 @@ jobs:
           git add reports/
           git diff --cached --quiet || git commit -m 'Update Auckland daily fishing report'
           git push
+      - name: Send report to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python telegram_push.py
       - run: echo 'Generated report saved to reports/latest.png and workflow artifacts.' >> "$GITHUB_STEP_SUMMARY"

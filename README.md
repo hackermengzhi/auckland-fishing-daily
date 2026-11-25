@@ -4,7 +4,7 @@ Runs daily at 06:00 Pacific/Auckland, with daylight saving handled by GitHub Act
 
 ![Latest report](reports/latest.png)
 
-Reports are saved in `reports/` and as workflow artifacts. No delivery channel is configured.
+Reports are saved in `reports/` and as workflow artifacts. The freshly generated image is sent to the bound Telegram chat using `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` repository secrets.
 
 ## Data and interpretation
 
